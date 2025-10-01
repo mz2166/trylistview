@@ -22,11 +22,27 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
          />
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNav"
+    <EditText
+        android:id="@+id/editImageNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:menu="@menu/menu" />
+        android:hint="Enter image number"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editImageName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter image name"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
 
 
 
